@@ -2,7 +2,7 @@ package View;
 
 import Controller.MergeSortController;
 
-public class MergeSortView {
+public class MergeSortView1 {
     public static void main(String[] args) {
         MergeSortController ms = new MergeSortController();
         int[] array = {74, 20, 74, 87, 81, 16, 25, 99, 44, 58};

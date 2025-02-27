@@ -2,17 +2,16 @@ package View;
 
 import Controller.BubbleSortController;
 
-import java.util.Scanner;
-
-public class BubbleSortView {
+public class BubbleSortView3 {
     public static void main(String[] args) {
+        int[] array = {101, 102, 103, 125, 124, 123, 104, 105, 106, 122};
         BubbleSortController bs = new BubbleSortController();
-        int[] array = {74, 20, 74, 87, 81, 16, 25, 99, 44, 58};
 
         int[] arrayOrdenado = bs.bubbleSortOrdenar(array);
 
         for(int i : arrayOrdenado){
-            System.out.print(" "+ i);
+            System.out.print(" "+i);
         }
+
     }
 }
